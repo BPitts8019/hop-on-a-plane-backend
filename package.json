@@ -1,0 +1,36 @@
+{
+   "name": "hop-on-a-plane-backend",
+   "version": "1.0.0",
+   "description": "Backend API for the hop-on-a-plane web app ",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest --verbose --watch",
+      "testNoWatch": "jest --verbose",
+      "server": "nodemon -r dotenv/config.js index.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BPitts8019/hop-on-a-plane-backend.git"
+   },
+   "author": "Bradley Pitts",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/BPitts8019/hop-on-a-plane-backend/issues"
+   },
+   "homepage": "https://github.com/BPitts8019/hop-on-a-plane-backend#readme",
+   "devDependencies": {
+      "jest": "^26.6.3",
+      "nodemon": "^2.0.6"
+   },
+   "dependencies": {
+      "axios": "^0.21.0",
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "helmet": "^4.2.0",
+      "jsonwebtoken": "^8.5.1",
+      "knex": "^0.21.12",
+      "sqlite3": "^5.0.0"
+   }
+}
